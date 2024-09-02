@@ -1,0 +1,155 @@
+*{
+    font-family: sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-bottom: 60px 0 0 0;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 30px;
+}
+.logo a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.options{
+    display: flex;
+    align-items: center;
+}
+.options a{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+.options button{
+    margin: 0 10px;
+    color: #ef2c52;
+    border: 2px solid #ef2c52;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.angle{
+    color: gold;
+}
+.heart, .cart{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.card_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+.card_box .card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    width: 300px;
+}
+h3{
+    margin: 100px 0 0 20px;
+}
+.image_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+}
+.image_box .card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+.description{
+    width: 250px;
+    padding: 15px;
+}
+.description p,h4{
+    margin-top: 10px;
+}
+#create_account{
+    background-color: gold;
+    margin-top: 60px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+#signup{
+    padding: 30px 15px;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+}
+#signup h4{
+    text-align: center;
+}
+#signup h6{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+#signup a{
+    text-decoration: none;
+    color: blue;
+}
+.xmark{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+form span{
+    color: red;
+}
+form{
+    margin: 20px 0;
+}
+input{
+    margin: 8px 0;
+    width: 300px;
+    padding: 7px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#submit{
+    width: 312px;
+    background-color: rgb(58, 58, 255);
+    color: white;
+    cursor: pointer;
+}
+.privacy{
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px 0;
+}

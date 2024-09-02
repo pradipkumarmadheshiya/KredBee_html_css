@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KreditBee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3847ae3c9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="data:image/png;base64,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" alt=""></a>
+                <a href="#">KreditBee</a>
+            </div>
+            <div class="options">
+                <a href="#">Loans <i class="angle fa-solid fa-angle-down"></i></a>
+                <a href="#">Calculators <i class="angle fa-solid fa-angle-down"></i></a>
+                <a href="#">Credit Report</a>
+                <a href="#">Refer & Earn</a>
+                <a href="#"><i class="heart fa-regular fa-heart"></i></a>
+                <a href="#"><i class="cart fa-solid fa-cart-shopping"></i></a>
+                <button>SIGN UP</button>
+            </div>
+        </nav>
+        <h1>Why Choose KreditBee?</h1>
+        <div class="card_box">
+            <div class="card">
+                <div class="image">
+                    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-1.svg" alt="">
+                </div>
+                <div class="description">
+                    <h4>Lower Interest Rates</h4>
+                    <p>Get loans for multiple purposes at lower interest rates to suit your needs</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-2.svg" alt="">
+                </div>
+                <div class="description">
+                    <h4>Fast Processing and Disbursal</h4>
+                    <p>Apply online, check your eligibility and get money directly in your bank in 10 minutes</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/banners/New_Web/ic-3.svg" alt="">
+                </div>
+                <div class="description">
+                    <h4>Easy Repayment Options</h4>
+                    <p>Repay the loan amount in easy EMI with flexible tenure options</p>
+                </div>
+            </div>
+        </div>
+        <h3>Fresh from the blog <i class="fa-solid fa-arrow-right"></i></h3>
+        <div class="image_box">
+            <div class="card">
+                <div class="image">
+                    <img src="https://blog.kreditbee.in/blog/content/images/2024/08/Blog-Image_Aug_45_Makar-Sankranti-Festival-Celebrated-in-India.png" alt="">
+                </div>
+                <div class="description">
+                    <p>Shoppings Guides</p>
+                    <h4>9 comfy throws for cosy autumn vibes</h4>
+                    <p>Embrace the snuggling season with stylish throws that will warm your hearts.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://ik.imagekit.io/krazybee/kreditbee_in/InnerPages/News/ArticleCover/PR-_Image_480X272_img_KBWeb_News_20240101-G.png" alt="">
+                </div>
+                <div class="description">
+                    <p>Shoppings Guides</p>
+                    <h4>14 Beautiful Bags That Express Your Unique Style </h4>
+                    <p>Amp up your fashion game with bags that perfectly match your aesthetic.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="https://blog.kreditbee.in/blog/content/images/2024/08/Blog-Image_Aug_43_Good-Friday.png" alt="">
+                </div>
+                <div class="description">
+                    <p>Ideas</p>
+                    <h4>The Best Gift Ideas for Kids of All Ages</h4>
+                    <p>Shop the sweetest surprises for all little ones in your family—these gifts for kids will definitely earn you some brownie points.</p>
+                </div>
+            </div>
+        </div>
+        <div id="create_account">
+            <div id="signup">
+                <h4>Create Account</h4>
+                <h6>Already have an account? <a href="#">SignIn</a></h6>
+                <form>
+                    <label>Full name <span>*</span>
+                        <br>
+                        <input type="text" placeholder="Enter full name" id="name">
+                    </label>
+                    <br>
+                    <label>Enter address <span>*</span>
+                        <br>
+                        <input type="email" placeholder="Enter email address" id="email">
+                    </label>
+                    <br>
+                    <label>Phone number <span>*</span>
+                        <br>
+                        <input type="number" placeholder="Enter phone number" id="phone">
+                    </label>
+                    <br>
+                    <label>Refferal code (optional)
+                        <br>
+                        <input type="text" placeholder="Enter refferal code" id="refeeral">
+                    </label>
+                    <br>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+                <div class="privacy">
+                    <p>By signing up. I accept Masai <a href="#">Term of service</a>and acknwoldge the <a href="#">Privacy Policy</a></p>
+                </div>
+                <i class="xmark fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>COPYRIGHT ©ETSY PRIVATE LIMITED. ALL RIGHT RESERVED</p>
+        </div>
+    </div>
+</body>
+</html>
